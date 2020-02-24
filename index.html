@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset ="UTF-8">
+        <title>Pizza Form</title>
+        <!-- Stylesheet ref for Bulma IO, a CSS based front-end library far easier than Bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <link rel="stylesheet" href="style.css">   
+
+    </head>
+
+
+    <body>
+        <section class="main">
+            <div class="custom-box-black">
+                <div style="margin: 5%;">
+                    <label class="label"><b style="font-size: 35px;">Name & Information</b></label>
+                    <br>
+                    <input class="input" type="text" placeholder="First Name">
+                    <input class="input" type="text" placeholder="Last Name">
+                    <input class="input" type="email" placeholder="Email">
+                    <input class="input" type="text" placeholder="Phone Number">
+                </div>
+                
+            </div>
+    
+            <div class="custom-box-black">
+                <div class="select is-multiple" style="margin: 5%;">
+                    <label class="label"><b style="font-size: 35px;"># of Pizzas</b></label>
+                    <br>
+                    <select multiple-size="8" style="font-size: 20px; overflow: scroll;">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="custom-box-black">
+                <div class="select is-multiple" style="margin: 5%;">
+                    <label><b style="font-size: 35px;">Size</b></label>
+                    <br>
+                    <select multiple-size="2" style="font-size: 20px; overflow: scroll;">
+                        <option value="12">12 Inches</option>
+                        <option value="14">14 Inches</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div class="custom-box-black">
+                <div class="select is-multiple" style="margin: 5%;">
+                    <label><b style="font-size: 35px;">Shape</b></label>
+                    <br>
+                    <select multiple-size="2" style="font-size: 20px; overflow: scroll;">
+                        <option value="square">Square</option>
+                        <option value="round">Round</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div class="custom-box-black">
+                <label><b style="font-size: 35px; margin: 5%;">Toppings</b></label>
+                <br>
+                <label class="checkbox" style="margin: 5%;">
+                    <input type="checkbox">
+                    Pepperoni
+                    <input type="checkbox">
+                    Chicken
+                    <input type="checkbox">
+                    Tomatoes
+                    <br>
+                    <input type="checkbox">
+                    Jalpenos
+                    <input type="checkbox">
+                    Peppers
+                    <input type="checkbox">
+                    Sausage
+                    <br>
+                    <input type="checkbox">
+                    Onions
+                </label>
+            </div>
+    
+            <div class="custom-box-black">
+                <label><b style="font-size: 35px; margin: 5%;">Crust Type</b></label>
+                <br>
+                <div class="control" style="margin: 5%;">
+                    <label class="radio">
+                        <input type="radio" name="pizza-type">
+                        Deep Dish
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="pizza-type">
+                        Pan Tossed
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="pizza-type">
+                        Thin Crust
+                    </label>
+                </div>
+            </div>
+    
+            <div class="custom-box-red">
+                <label><b style="font-size: 35px; margin: 5%;">Delivery Type</b></label>
+                <br>
+                <div class="control" style="margin: 5%;">
+                    <label class="radio">
+                        <input type="radio" name="pizza-type">
+                        Walk-In
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="pizza-type">
+                        Delivery
+                    </label>
+                </div>
+            </div>
+    
+            <div class="field is-grouped">
+                <div class="control" style="margin: 20px;">
+                    <button class="button is-link">Submit</button>
+                </div>
+            </div>
+        </section>
+
+    </body>
+
+    <footer>
+        <small>This website has been created by <a href="https://github.com/brandongallagher1999">Brandon Gallagher</a></small>
+    </footer>
+</html>

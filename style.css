@@ -1,0 +1,21 @@
+
+
+.custom-box-black
+{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    margin-left: 1%;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+.custom-box-red
+{
+    width: 300px;
+    height: auto;
+    border: 2px solid red;
+    margin-left: 1%;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
